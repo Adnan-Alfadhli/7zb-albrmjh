@@ -20,9 +20,9 @@
       <ul class="nav-links">
 
           
-          <li><a href="">Home</a></li>
-          <li><a href="">My activity</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="timer.html">Home</a></li>
+          <li><a href="index.html">My activity</a></li>
+          <li><a href="#">About</a></li>
          
           
 
@@ -37,18 +37,45 @@
     <div class="card center">
 
       <div class="text">
-          <h1 class="timer">Test</h1>
+          <h1 class="timer1">0:0:5</h1>
       </div>
 
       <div class="input">
-      <input type="text" name="" id="">
+      <input type="text" name="" id="AWELAW">
       </div>
 
-      <a href="#">
-        <button class="btn">Add new activity</button>
+      <a href="index.html">
+        <button class="btn"  onclick="addActivity()">Add new activity</button>
       </a>
     </div>
   </main>
+    <script>
+      function addActivity() {
+        var awelaw = document.getElementById("AWELAW").value;
+        if (!awelaw || awelaw.length === 0) return window.alert("حط اكتيفيتي بإسم محترم يسطا");
+
+        let wsholoh = localStorage.getItem('activityData');
+        if (!wsholoh || typeof JSON.parse(wsholoh) === 'string') return;
+
+        let parsedArray = JSON.parse(wsholoh);
+        let lastItem = parsedArray[parsedArray.length - 1];
+
+        lastItem['activityName'] = awelaw;
+        localStorage.setItem('activityData', JSON.stringify(parsedArray));
+
+        let data = localStorage.getItem("activityData");
+      let array = JSON.parse(data);
+
+      let toInsert = array.map((m, i) => 
+        `
+            <div ${i % 2 === 0 ? 'class="timer"': ""}>
+              <h1>${m.time}</h1>
+            </div>
+        `
+      );
+
+      }
+    </script>
     <script src="main.js"></script>
   </body>
 </html>

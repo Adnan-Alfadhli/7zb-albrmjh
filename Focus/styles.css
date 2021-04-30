@@ -12,6 +12,14 @@
     border-radius: 12px;
     padding-top: 10px;
   }
+
+  .buttons {
+      margin-top: 100px;
+  }
+
+  .input {
+      margin-top: 60px;
+  }
   
 
   .text {
@@ -23,15 +31,17 @@
   width: 120px;
   background-color: #FF7272;
   margin-left: 135px;
-  margin-top: 30px;
+  margin-top: 35px;
   border-radius: 50%;
+  padding-top: 40px;
   }
 
   .timer {
-    padding: 19px;
-    padding-top: 45px;
+    padding: 30px;
+    padding-top: 100px;
     padding-right: 100px;
     color: white;
+    margin-top: 100px;
     font-size: 25px;
     
   }
