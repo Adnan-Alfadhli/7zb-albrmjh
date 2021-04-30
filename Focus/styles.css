@@ -1,36 +1,3 @@
-/* .card {
-    width: 500px;
-    height: 400px;
-    background-color: white;
-    border-radius: 12px;
-    padding-top: 10px;
-    float: right;
-    margin-top: 130px;
-    margin-right: 60px;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
-}
-
-body {
-    background-color: white;
-}
-
-#email {
-    margin-top: 170px;
-    margin-left: 100px;
-}
-
-#forget {
-    float: right;
-    margin-right: 20px;
-}
-
-#password {
-    display: block;
-    margin-top: 50px;
-    margin-left: 100px;
-} */
-
-  
 *{
     margin: 0;
     padding: 0;
@@ -45,6 +12,14 @@ body {
     border-radius: 12px;
     padding-top: 10px;
   }
+
+  .buttons {
+      margin-top: 100px;
+  }
+
+  .input {
+      margin-top: 60px;
+  }
   
 
   .text {
@@ -56,27 +31,19 @@ body {
   width: 120px;
   background-color: #FF7272;
   margin-left: 135px;
-  margin-top: 30px;
+  margin-top: 35px;
   border-radius: 50%;
+  padding-top: 40px;
   }
 
   .timer {
-    padding: 19px;
-    padding-top: 45px;
+    padding: 30px;
+    padding-top: 100px;
     padding-right: 100px;
     color: white;
-    margin-left: 13px;
+    margin-top: 100px;
     font-size: 25px;
     
-  }
-
-  .buttons {
-      margin-top: 120px;
-  }
-
-  #display {
-      padding-top: 39px;
-      color: white;
   }
   
   h3:hover {
