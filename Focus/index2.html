@@ -1,3 +1,21 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card">
+    <input type="text" name="email" placeholder="Email" id="email">
+    <input type="password" name="password" placeholder="Password" id="password">
+    <a href="#" id="forget">Forget Password?</a>
+  </div>
+</body>
+</html> -->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -35,7 +53,7 @@
 
     <div class="card center">
       <div class="text">
-          <h1 class="timer">0:12:20</h1>
+          <h1 id="display">0:0:0</h1>
       </div>
 
       <!-- <div id="input_container">
@@ -44,10 +62,16 @@
     </div> -->
 
 
-      <div class="stop"></div>
-      <a href="#">
-        <img src="./stop.png" alt="">
+
+  <div class="buttons">
+      <a href="#" onclick="startstop()">
+      <img src="stop.png" id="startstop">
+      <a href="#" onclick="Timer()">
+        <img src="stop.png" alt="">
       </a>
-    </div>
+      </a>
+  </div>
+
+    <script src="brmjh.js"></script>
   </body>
 </html>
