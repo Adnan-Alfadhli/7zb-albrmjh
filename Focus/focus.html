@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html> 
+<head>
+<title> Local storage</title>
+
+<style type="text/css">
+    table#table1 {width:10% ; background-color: rgb(224, 155, 155) } 
+</style> 
+
+<script> 
+ function saveMy(){ varfieldValue = document.getElementById ('textfield').value=localStorage.setItem('text', 'fieldValue')};
+ function load(){varstoredValue = localStorage.getItem ('text') };
+ if(storedValue){document.getElementById ('textfield2').value = storedValue };
+ function removeMy(){document.getElementById ('textfield').value = localStorage.removeItem('text')} ; 
+ </script>
+
+ </head> <body onload="load()">
+ <input type="text" id="textfield"/>
+ <input type="button" value="save"onclick="saveMy ()"/>
+ <input type="button" value="remove"onclick="removeMy()"/>
+ <hr/>
+ <table id="table1" border="1">
+ <tr>
+ <th>text</th>
+ </tr>
+ <tr>
+ <td>
+ <input type="text" id="textfield2" />
+ </td>
+ </tr> 
+ </table> 
+ </body> 
+ </html>
