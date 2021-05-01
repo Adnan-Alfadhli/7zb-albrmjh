@@ -15,36 +15,6 @@
     margin-top: 20px;
 }
 
-#name {
-    margin-top: 40px;
-    margin-left: 100px;
-    display: block;
-    border: none;
-    background-color: transparent;
-    color: #080000;
-    outline: none;
-    outline-style: none;
-    border-top: none;
-    border-bottom: solid #eeeeee 2px;
-    border-left: none;
-    border-right: none;
-}
-
-#email {
-    margin-top: 40px;
-    margin-left: 100px;
-    display: block;
-    border: none;
-    background-color: transparent;
-    color: #080000;
-    outline: none;
-    outline-style: none;
-    border-top: none;
-    border-bottom: solid #eeeeee 2px;
-    border-left: none;
-    border-right: none;
-}
-
 #password {
     margin-top: 40px;
     margin-left: 100px;
