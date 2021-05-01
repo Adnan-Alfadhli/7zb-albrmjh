@@ -1,0 +1,133 @@
+.card {
+    width: 550px;
+    height: 400px;
+    background-color: #003566;
+    box-shadow: 5px 5px 10px rgb(3, 3, 3);
+    border-radius: 12px;
+    float: right;
+    padding-top: 10px;
+    margin-top: 90px;
+    margin-right: 390px;
+}
+
+.image {
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+#teacher {
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 1px;
+    display: block;
+    border: none;
+    background-color: transparent;
+    height: 60%;
+    width: 60%;
+    color: #080000;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-bottom: solid #eeeeee 2px;
+    border-left: none;
+    border-right: none;
+}
+
+#start input {
+    width: 35px;
+    border: none;
+    background-color: transparent;
+    color: #080000;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-bottom: solid #eeeeee 2px;
+    border-left: none;
+    border-right: none;
+}
+
+.end input {
+    width: 35px;
+    border: none;
+    background-color: transparent;
+    color: #080000;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-bottom: solid #eeeeee 2px;
+    border-left: none;
+    border-right: none;
+}
+
+#credit {
+    margin-top: 40px;
+    margin-left: 100px;
+    display: block;
+    border: none;
+    height: 60%;
+    width: 60%;
+    background-color: transparent;
+    color: #080000;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-bottom: solid #eeeeee 2px;
+    border-left: none;
+    border-right: none;
+}
+
+#smester {
+    margin-top: 40px;
+    margin-left: 100px;
+    display: block;
+    border: none;
+    height: 60%;
+    width: 60%;
+    background-color: transparent;
+    color: #080000;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-bottom: solid #eeeeee 2px;
+    border-left: none;
+    border-right: none;
+    
+}
+
+#start {
+    color: white;
+    margin-left: 100px;
+    padding-top: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.end {
+    color: white;
+    margin-left: 100px;
+    display: inline-block;
+    text-align: right;
+    padding-bottom: 1px
+}
+
+    .button input{
+        background-color: white;
+        border: none;
+        color: #003566;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-left: 200px;
+        margin-top: 20px;
+}
+
+.button {
+    border-radius: 20px;
+    margin-top: 120px;
+}
+
+.texts {
+    padding-left: 210px;
+}
