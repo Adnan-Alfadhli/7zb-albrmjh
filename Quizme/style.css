@@ -1,0 +1,120 @@
+body {
+  background-color: midnightblue;
+}
+
+.grid {
+  width: 600px;
+  height: fit-content;
+  margin: 0 auto;
+  background-color: rgb(17, 6, 56);
+  padding: 10px 50px 50px 50px;
+}
+
+.grid h1 {
+  font-family: "sans-serif";
+  background-color: #5a01ff;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  padding: 2px 0px;
+}
+
+#score {
+  color: #6861cf;
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid #question {
+  font-family: "monospace";
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+  background-color: #582b92;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  cursor: pointer;
+  background-color: #01bbff;
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+  outline: 0;
+}
+
+#progress {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#submit {
+  border: none;
+  padding: 10px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  display: table;
+  margin: 0 auto;
+  font-size: 40px;
+  width: 200px;
+  background-color: #4501ff;
+}
+#start {
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: rgb(147, 206, 93);
+  box-shadow: 0px 0px 4px rgb(147, 206, 93);
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#correctAnswers, #wrongAnswers, #correct, #false {
+    text-align: center;
+}
+#correct, #false {
+    color: white;
+}
+#correctAnswers {
+
+    color: rgb(127, 252, 127);
+}
+#wrongAnswers {
+
+    color: rgb(196, 60, 60);
+}
+
+.hide {
+  display: none;
+}
+
+#timer {
+    color: white;
+}
